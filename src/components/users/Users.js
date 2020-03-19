@@ -36,7 +36,7 @@ export default class Users extends Component {
     console.log(this.state.users);
     
     return (
-      <div className='margen'>
+      <div>
         <table className='tabla'>
           <thead>
             <tr>

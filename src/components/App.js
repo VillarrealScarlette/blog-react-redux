@@ -15,8 +15,10 @@ export default function App() {
   return (
     <BrowserRouter>
     <Menu />
-    <Route exact path='/' component={ Users }></Route>
-    <Route exact path='/task' component={ Tasks }></Route>
+    <div className='margen'>
+      <Route exact path='/' component={ Users }></Route>
+      <Route exact path='/task' component={ Tasks }></Route>
+    </div>
     </BrowserRouter>
   );
 }
